@@ -9,12 +9,11 @@ input {
 }
 button {
   margin-top: 20px;
-  margin-left: 2rem;
-  background-color: #eee;
-  padding: 0.2rem 0.5rem;
   border-radius: 4px;
-  font-size: 0.7rem;
   height: 1.5rem;
+  padding: 0.2rem 0.5rem;
+  margin-left: 1rem;
+  font-size: 0.7rem;
 }
 button:hover {
   background-color: #cfd8dc;
@@ -27,4 +26,14 @@ button:disabled {
 
 .details-heading{
   display: flex;
+}
+
+#goBack{
+
+  background-color: #993333;
+  color: white;
+}
+#save{
+  background-color: #339938;
+  color: white;
 }

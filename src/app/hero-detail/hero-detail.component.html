@@ -2,7 +2,8 @@
 
   <span class="details-heading">
     <h2>{{hero.name | uppercase}} Details</h2>
-    <button type="button" (click)="goBack()">go back</button>
+    <button type="button" id="goBack" (click)="goBack()">go back</button>
+      <button type="button" id="save" (click)="save()">save</button>
   </span>
   <div><span>id: </span>{{hero.id}}</div>
   <div>
